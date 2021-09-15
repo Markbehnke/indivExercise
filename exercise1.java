@@ -44,6 +44,10 @@ public class exercise1
     public static void main(String args[])
     {
         int testCase = 0;
+
+        int testCase1 = 10;
+
+
         int arr[] = { 64, 34, 25, 12, 22, 11, 90 };
         int n = arr.length;
         bubbleSort(arr, n);
