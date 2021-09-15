@@ -43,6 +43,7 @@ public class exercise1
 
     public static void main(String args[])
     {
+        int testCase = 0;
         int arr[] = { 64, 34, 25, 12, 22, 11, 90 };
         int n = arr.length;
         bubbleSort(arr, n);
@@ -50,6 +51,5 @@ public class exercise1
         printArray(arr, n);
     }
 }
-  //Hello world
 
 //Code from https://www.geeksforgeeks.org/bubble-sort/
