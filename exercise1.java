@@ -40,9 +40,7 @@ public class exercise1
             System.out.print(arr[i] + " ");
         System.out.println();
     }
-//Hello
-  
-    // Driver program
+
     public static void main(String args[])
     {
         int arr[] = { 64, 34, 25, 12, 22, 11, 90 };
@@ -52,6 +50,6 @@ public class exercise1
         printArray(arr, n);
     }
 }
-  
+  //Hello world
 
 //Code from https://www.geeksforgeeks.org/bubble-sort/
