@@ -31,6 +31,7 @@ public class exercise1
         }
     }
   
+
     // Function to print an array 
     static void printArray(int arr[], int size)
     {
@@ -39,6 +40,7 @@ public class exercise1
             System.out.print(arr[i] + " ");
         System.out.println();
     }
+
   
     // Driver program
     public static void main(String args[])
