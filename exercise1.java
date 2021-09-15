@@ -43,16 +43,23 @@ public class exercise1
 
     public static void main(String args[])
     {
-        int testCase = 0;
-
-        int testCase1 = 10;
 
 
-        int arr[] = { 64, 34, 25, 12, 22, 11, 90 };
+        int arr[] = {64, 34, 25, 12, 22, 11, 90};
         int n = arr.length;
+
+        int test1 []= {5,4,3,2,1};
+        int j = test1.length;
+
         bubbleSort(arr, n);
-        System.out.println("Sorted array: ");
+        System.out.println("Sorted array1: ");
         printArray(arr, n);
+
+
+        bubbleSort(test1, j);
+        System.out.println("Sorted array2: ");
+        printArray(test1, j);
+
     }
 }
 
